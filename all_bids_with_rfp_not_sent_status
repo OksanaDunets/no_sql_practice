@@ -1,1 +1,1 @@
-
+db.bids.find({status: 'RFP_NOT_SENT'})
