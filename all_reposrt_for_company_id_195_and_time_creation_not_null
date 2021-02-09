@@ -1,0 +1,1 @@
+db.reports.find({companyId: 195, creationTime : {$ne:null}})
