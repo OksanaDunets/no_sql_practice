@@ -1,0 +1,6 @@
+db.internalFields.update({
+    isEnabled: false
+},
+{
+    $set : { isEnabled: false}
+}, {multi: true })
