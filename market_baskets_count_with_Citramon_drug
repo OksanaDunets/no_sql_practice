@@ -1,0 +1,2 @@
+db.marketBaskets.find({}, 
+{ drugList: { $elemMatch: {  name: "Citramon" } } } ).count()
